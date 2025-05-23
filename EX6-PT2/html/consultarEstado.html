@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Consultar Estado</title>
+    <link rel="stylesheet" href="../css/consultarEstado.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Consultar Estado</h1>
+
+        <label for="estado">Selecione um estado:</label>
+        <select id="estado">
+      <option value="">-- Escolha --</option>
+      <option value="SP">São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="MG">Minas Gerais</option>
+      
+    </select>
+
+        <button id="consultar">Consultar</button>
+
+        <div id="resultado" class="resultado"></div>
+
+        <h2>Histórico</h2>
+        <ul id="listaHistorico"></ul>
+    </div>
+
+    <script type="module" src="../js/f_consultarEstado.js">
+    </script>
+</body>
+
+</html>

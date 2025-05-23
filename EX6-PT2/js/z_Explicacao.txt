@@ -1,0 +1,8 @@
+ola, provavelmente você deve esta perdido dentro dessa pasta, então eu decidi criar uma legenda, 
+esse arquivo é um padrão que eu(jhonatan) criei para esse exercício, que eu decidi modularizar
+
+c_nomeArquivo --> clases
+f_nomeArquvio --> função
+v_nomeArquivo --> varivel, const ou let, arreys, etc...
+t_nomeArquivo --> arquivo de teste
+z_nomeArquivo --> arquivo .txt
